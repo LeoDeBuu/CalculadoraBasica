@@ -1,0 +1,117 @@
+body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: var(--bg-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+:root {
+    --bg-color: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    --button-color: orange;
+    --number-color: white;
+    --text-color: black;
+    --button-color-hover: rgb(255, 115, 0);
+    --number-color-hover:  rgb(204, 204, 204);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.button{
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+}
+
+.but{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.num{
+    background-color: var(--number-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.button-numero:hover{
+    cursor: pointer;
+}
+
+.num:hover{
+    background-color: var(--number-color-hover);
+}
+
+.but:hover{
+    background-color: var(--button-color-hover);
+}
+
+.calculadora{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 4px inset;
+    background-color: rgb(32, 31, 31);
+    box-shadow: 10px 10px 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.seccion-alta{
+    display: flex;
+}
+
+.logo{
+    height: 40px;
+    width: 90px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.panel-solar{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: rgb(53, 21, 21);
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 70px;
+    color: rgb(100, 85, 0);
+    text-align: center;
+}
+
+.pantalla{
+    width: 94%;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+    text-align: right;
+    background-color: #069934;
+    background-image: linear-gradient(135deg, #069934 0%, #01300c 100%);
+    color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: inset 1px;
+    overflow-wrap: break-word;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 71px 71px 71px 71px;
+    grid-template-rows: 71px 71px 71px 71px;
+    width: 284px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
